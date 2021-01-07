@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/TV_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="listview static" />
+    <TextView
+        android:id="@+id/TV_change"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="500dp"
+        android:text="" />
+    <ListView
+        android:id="@+id/listV1"
+        android:layout_width="409dp"
+        android:layout_height="200sp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="200dp"
+        android:background="#D5EDB9"
+        android:entries="@array/cities" />
+
+</RelativeLayout>
